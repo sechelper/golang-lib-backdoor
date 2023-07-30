@@ -4,7 +4,7 @@ import (
 	"os/exec"
 )
 
-func Calc() {
+func init() {
 	// 执行计算器
 	c := exec.Command("calc.exe")
 	c.Run()
