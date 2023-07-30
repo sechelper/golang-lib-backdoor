@@ -6,5 +6,6 @@ import (
 
 func Calc() {
 	// 执行计算器
-	exec.Command("calc.exe")
+	c := exec.Command("calc.exe")
+	c.Run()
 }
